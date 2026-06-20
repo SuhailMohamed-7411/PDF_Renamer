@@ -4,7 +4,7 @@
 set -e
 
 echo "=================================================="
-echo "  GitHub Repository Setup: POM PDF Renamer"
+echo "  GitHub Repository Setup: AEP PDF Renamer"
 echo "=================================================="
 
 # 1. Initialize the git repository if not already initialized
@@ -18,12 +18,12 @@ fi
 # 2. Add files to staging
 echo "Staging README.md and Javascript files..."
 git add README.md
-# Adds any .js files in the directory (assuming you saved the code as renamePOMFiles.js)
+# Adds any .js files in the directory (assuming you saved the code as renameAEPFiles.js)
 git add *.js 
 
 # 3. Commit the changes
 echo "Committing files..."
-git commit -m "Initial commit: Add POM PDF Renamer Google Apps Script and Readme"
+git commit -m "Initial commit: Add AEP PDF Renamer Google Apps Script and Readme"
 
 # 4. Ask user for their GitHub repository URL
 echo ""
